@@ -6,6 +6,7 @@ import styles from './AddUser.module.css'
 import Wrapper from "../Helpers/Wrapper";
 
 const AddUser = (props) => {
+    // Use Ref
     const nameInputRef = useRef()
     const ageInputRef = useRef()
 
@@ -50,6 +51,7 @@ const AddUser = (props) => {
         // setEnteredUserName('')
         // setEnteredAge('')
 
+        //use Ref
         nameInputRef.current.value = ''
         ageInputRef.current.value = ''
     }
